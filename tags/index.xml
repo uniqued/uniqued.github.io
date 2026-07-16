@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Christian Rohr</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on Christian Rohr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Produktarbeit</title>
+      <link>https://example.org/tags/produktarbeit/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/produktarbeit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UX</title>
+      <link>https://example.org/tags/ux/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/ux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GovTech</title>
+      <link>https://example.org/tags/govtech/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/govtech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Service Design</title>
+      <link>https://example.org/tags/service-design/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/service-design/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
