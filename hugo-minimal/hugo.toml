@@ -1,0 +1,44 @@
+baseURL = "https://example.org/"
+languageCode = "de-de"
+title = "Christian Rohr"
+defaultContentLanguage = "de"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 12
+
+[params]
+  author = "Christian Rohr"
+  email = "christian.rohr@init.de"
+  description = "Portfolio von Christian Rohr, UX Consultant"
+
+  [params.hero]
+    eyebrow = "UX Consulting"
+    title = "Ich gestalte digitale Services, die Komplexität reduzieren und Orientierung schaffen."
+    intro = "Ich arbeite an der Schnittstelle von Nutzerbedürfnissen, Fachlichkeit und Umsetzung - von Discovery bis Delivery."
+    primaryCtaLabel = "Work ansehen"
+    primaryCtaUrl = "/work/"
+    secondaryCtaLabel = "About"
+    secondaryCtaUrl = "/about/"
+
+  [params.home]
+    workTitle = "Ausgewählte Arbeiten"
+    workIntro = "Projekte aus UX, Service Design und digitaler Produktentwicklung."
+    workCount = 3
+    writingTitle = "Writing"
+    writingIntro = "Gedanken zu UX, Zusammenarbeit und digitaler Transformation."
+    writingCount = 3
+
+[menus]
+  [[menus.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+  [[menus.main]]
+    name = "Work"
+    pageRef = "/work"
+    weight = 20
+  [[menus.main]]
+    name = "Writing"
+    pageRef = "/writing"
+    weight = 30

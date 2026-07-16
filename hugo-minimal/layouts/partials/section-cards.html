@@ -1,0 +1,14 @@
+<section class="page-shell section-space">
+  <div class="section-head section-head-inline">
+    <div>
+      <p class="eyebrow">{{ .title }}</p>
+      <p class="section-intro">{{ .intro }}</p>
+    </div>
+    <a class="text-link" href="{{ .sectionUrl }}">{{ .sectionLabel }}</a>
+  </div>
+  <div class="card-grid">
+    {{ range .pages }}
+      {{ partial "card.html" . }}
+    {{ end }}
+  </div>
+</section>

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="page-shell section-space article">
+  <header class="article-header">
+    <p class="eyebrow">{{ .Section }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.summary }}<p class="article-intro">{{ . }}</p>{{ end }}
+  </header>
+  <div class="article-meta">
+    {{ with .Date }}<span>{{ .Format "02.01.2006" }}</span>{{ end }}
+    {{ with .Params.role }}<span>{{ . }}</span>{{ end }}
+    {{ with .Params.client }}<span>{{ . }}</span>{{ end }}
+  </div>
+  <div class="richtext">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

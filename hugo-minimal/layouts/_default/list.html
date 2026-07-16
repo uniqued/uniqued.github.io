@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="page-shell section-space">
+  <div class="section-head">
+    <p class="eyebrow">{{ .Title }}</p>
+    {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
+  </div>
+  <div class="card-grid">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ partial "card.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

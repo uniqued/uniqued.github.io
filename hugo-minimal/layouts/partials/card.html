@@ -1,0 +1,13 @@
+<article class="card">
+  <a class="card-link" href="{{ .RelPermalink }}">
+    <div class="card-top">
+      <p class="card-kicker">{{ .Section }}</p>
+      <h2>{{ .Title }}</h2>
+    </div>
+    {{ with .Params.summary }}<p class="card-summary">{{ . }}</p>{{ end }}
+    <div class="card-meta">
+      {{ with .Params.client }}<span>{{ . }}</span>{{ end }}
+      {{ with .Date }}<span>{{ .Format "2006" }}</span>{{ end }}
+    </div>
+  </a>
+</article>
